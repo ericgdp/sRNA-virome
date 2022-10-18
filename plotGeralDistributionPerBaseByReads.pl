@@ -313,7 +313,7 @@ print O8 "$prefix";
         if(defined($norm)){
             $a = ($t/$norm) * 1000000;
             $pnorm= ($p/$norm) * 1000000;
-            $nnorm= ($p/$norm) * 1000000;
+            $nnorm= ($n/$norm) * 1000000;
             
             $p=$pnorm;
             $n=$nnorm;
